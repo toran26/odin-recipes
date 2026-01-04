@@ -1,4 +1,4 @@
 # odin-recipes
 A website that showcases some recipies from Nepal.
 
-This website will have some recipies linked to it. And i will be learning all the basics of html i will be needing on the long run as a software engineer. 
+This website has 3 recipes famous in Nepal. I created this website while learning the basics of html. 
