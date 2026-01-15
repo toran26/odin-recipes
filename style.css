@@ -1,4 +1,33 @@
 body{
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(40, 80%, 99%);
+    padding:20px;
+    font-size: 16px;
+}
+h1{
+    color: hsl(326, 80%, 20%);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(326, 80%, 98%);
+}
+.recipe-links{
+    background-color: hsl(326, 80%, 97%);
+    padding:10px 0px;
+    border: 1px solid hsl(326, 80%, 80%);
+    width: 800px;
+    margin: 0 auto;
+;
+}
+.recipe-links li{
+    padding:10px 14px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: hsl(326, 80%, 20%);
+    width: 140px;
+    display: inline-block;
+    text-align: center;
 }
