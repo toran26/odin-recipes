@@ -9,9 +9,9 @@ body{
     padding:20px;
     font-size: 16px;
 }
-h1{
+h1,h2,h3,h4{
     color: hsl(326, 80%, 20%);
-    padding-bottom:20px;
+    padding:16px 0;
 }
 a{
     text-decoration: none;
@@ -27,7 +27,7 @@ a{
     width: 800px;
     margin: 80px auto;
 }
-.recipe-links li,.main-body li{
+.recipe-links li{
     padding:10px 14px;
     margin: 10px 10px 10px 0px;
     text-decoration: none;
@@ -38,16 +38,29 @@ a{
     color: hsl(326, 80%, 97%);
 }
 /* Sub-page styles */
-.main-body{
+.single-recipe-body{
     width: 800px;
     margin: 40px auto;
 }
-.main-body a{
+.single-recipe-body a{
     margin: 20px 0;
     padding: 10px;
     display: inline-block;
 }
-.main-body p{
+.single-recipe-body p{
     display: inline-block;
-    width: 400px;
+    width: 600px;
+    padding: 10px 0;
+    line-height: 1.4em;
+}
+.inner-recipe-section{
+    background-color: hsl(326, 80%, 97%);
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(326, 80%, 90%);
+    margin: 10px 0;
+}
+.inner-recipe-section li{
+    padding: 4px;
+    list-style-type: none;
 }
